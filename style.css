@@ -28,8 +28,12 @@ ul {
   list-style: none;
 }
 
-.span-color {
+.span-wheat {
   color: wheat;
+}
+
+.span-red {
+  color: red;
 }
 
 a {
