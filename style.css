@@ -32,6 +32,18 @@ ul {
   color: wheat;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 5rem;
+}
+
 /* ///////////////////////////////////////// */
 
 .nav-list {
@@ -42,18 +54,13 @@ ul {
   font-size: 2rem;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .section-hero {
   display: flex;
   justify-content: space-around;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-bottom: 0;
 }
 
