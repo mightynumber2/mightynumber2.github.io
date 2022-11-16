@@ -29,7 +29,8 @@ body {
 .nav-list {
   display: flex;
   justify-content: flex-start;
-  gap: 3rem;
+  align-items: center;
+  gap: 3.5rem;
   list-style: none;
   font-size: 2rem;
 }
