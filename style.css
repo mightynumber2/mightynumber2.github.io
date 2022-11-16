@@ -9,9 +9,54 @@ html {
 body {
   background: black;
   color: whitesmoke;
+  font-family: 'Syne Mono', sans-serif;
 }
 
 /* ///////////////////////////////////////// */
+
+/* GENERAL */
+.container {
+  max-width: 114rem;
+  margin: auto;
+}
+
+.span-color {
+  color: wheat;
+}
+
+/* ///////////////////////////////////////// */
+
+.nav-list {
+  display: flex;
+  justify-content: flex-start;
+  gap: 3rem;
+  list-style: none;
+  font-size: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.section-hero {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 35%;
+}
 
 
 
